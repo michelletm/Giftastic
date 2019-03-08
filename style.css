@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+
+}
+
+.container {
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.buttoncontainer {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#newshowform {
+    height: 90px;
+    width: 200px;
+    color: white;
+    outline: 2px sold gray;
+    font-family: 'Special Elite', cursive;
+    font-size: 28px;
+    float: right;
+    margin-right: 100px;
+}
+
+#textbox {
+    width: 152px;
+    height: 25px;
+}
+
+p{
+    color: white;
+
+}
+
+
+.btn {
+    background-color: red;
+    font-family: 'Special Elite', cursive;
+    font-size: 25px;
+    outline: 1px solid gray;
+    padding: 10px;
+}
+
+#newShowGifs {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+}

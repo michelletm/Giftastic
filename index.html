@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giftastic!</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+
+</head>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<body>
+    <header>
+        <h1>TV Show GIF Generator</h1>
+    </header>
+
+    <div class="container">
+        <div id="newshowform">
+            <form action="/action_page.php">Add a Show: <br>
+                <input type="text" id="textbox" name="newShow" value=""><br>
+                <input type="button" id="submit-btn" value="Submit">
+            </form>
+        </div>
+
+        <div class="buttoncontainer">   
+            <button class="btn" data-show="Game of Thrones">Game of Thrones</button>
+            <button class="btn" data-show="Deadwood">Deadwood</button>
+            <button class="btn" data-show="The Punisher">The Punisher</button>
+            <button class="btn" data-show="Scandal">Scandal</button>
+        </div>
+   
+        <div id="newShowGifs">
+
+        </div>
+      
+<script src="logic.js"></script>
+    
+</body>
+</html>
